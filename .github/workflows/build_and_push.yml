@@ -18,14 +18,24 @@ jobs:
     strategy:
       matrix:
         include:
-          - context: 8
+          - context: 1804
             tags: |
-              ${{ github.repository }}:8
-              ghcr.io/${{ github.repository }}:8
-          - context: 9
+              ${{ github.repository }}:1804
+              ghcr.io/${{ github.repository }}:1804
+              ${{ github.repository }}:bionic
+              ghcr.io/${{ github.repository }}:bionic
+          - context: 2004
             tags: |
-              ${{ github.repository }}:9
-              ghcr.io/${{ github.repository }}:9
+              ${{ github.repository }}:2004
+              ghcr.io/${{ github.repository }}:2004
+              ${{ github.repository }}:focal
+              ghcr.io/${{ github.repository }}:focal
+          - context: 2204
+            tags: |
+              ${{ github.repository }}:2204
+              ghcr.io/${{ github.repository }}:2204
+              ${{ github.repository }}:jammy
+              ghcr.io/${{ github.repository }}:jammy
               ${{ github.repository }}:latest
               ghcr.io/${{ github.repository }}:latest
 

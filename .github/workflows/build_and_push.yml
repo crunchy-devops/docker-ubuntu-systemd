@@ -62,6 +62,6 @@ jobs:
         with:
           context: ./${{ matrix.context }}
           file: ./${{ matrix.context }}/Dockerfile
-          platforms: linux/amd64
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: ${{ matrix.tags }}

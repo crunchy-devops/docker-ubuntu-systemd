@@ -10,9 +10,9 @@ This repository has multiple tags that relate to Ubuntu versions.
 
 |Ubuntu Version|Docker image tag|
 |------------------|--------------------|
-|18.04 (bionic)    |1804, bionic        |
 |20.04 (focal)     |2004, focal         |
-|22.04 (jammy)     |2204, jammy, latest |
+|22.04 (jammy)     |2204, jammy         |
+|24.04 (noble)     |2404, noble, latest |
 
 Manually starting
 -----------------
